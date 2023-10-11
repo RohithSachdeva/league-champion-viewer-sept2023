@@ -17,13 +17,3 @@ type Champion = {
   tags: string[];
   title: string;
 };
-
-type User = {
-  user: {
-    user: {
-      email: string;
-      name: string;
-      image: string;
-    };
-  };
-};
