@@ -8,7 +8,7 @@ type AppProps = {
 };
 
 const Header = ({ session }: AppProps) => {
-  const user = session.user;
+  const user = session?.user;
   console.log(user);
   return (
     <div>
